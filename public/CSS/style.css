@@ -1,0 +1,53 @@
+body{
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/** HEADER */
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+/** FOOTER */
+footer{
+    color: #888888;
+    border-top: 1px solid#EEEEEE;
+    padding: 16px 0;
+    margin-top: 16px;
+}
+ 
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+/*****************? CLASSES ******************/
+.robot{
+    width: 250px;
+}
+
+.Image404{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.main-content{
+    flex-grow: 1;
+    
+}
