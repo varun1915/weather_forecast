@@ -16,7 +16,8 @@ btn.addEventListener( 'click', (event) => {
 
     text1.textContent = 'Loading...'
 
-    fetch("http://localhost:3000/weather?address=" + encodeURIComponent(address))
+    // fetch("http://localhost:3000/weather?address=" + encodeURIComponent(address))
+    fetch("/weather?address=" + encodeURIComponent(address))
     .then(data => data.json())
     .then( (data) => {
         if(!!data.error){
